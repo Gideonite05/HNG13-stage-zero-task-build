@@ -91,9 +91,9 @@ app.get('/me', async (req, res) => {
      const responseData = {
         status: 'success',
       user: {
-        Email: 'gideonokunogbe@gmail.com',
-        Name: 'Gideon Oluwatumininu Okunogbe',
-        Stack: 'Node.js/Express'
+        email: 'gideonokunogbe@gmail.com',
+        name: 'Gideon Oluwatumininu Okunogbe',
+        stack: 'Node.js/Express'
         },
         timestamp: timestamp,
         fact: fact
